@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karanta</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="../fontawesome/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+       <style>
+        @font-face {font-family: 'grafier-regulardisplay';
+                    src: url('grafier-regulardisplay.otf');}
+        @font-face {font-family: 'grafier-blackdisplay';
+            src: url('grafier-blackdisplay.otf');}
+
+        .premier{ background-image: url(); opacity:1;}
+                 
+        .k{padding-left:15px; padding-right:15px;padding-bottom:12px; padding-top:13px;
+          font-size: 1.5em;border-radius: 100%;color:white; background-color: rgb(47, 11, 177);}
+           
+        .kfo{padding-left:2.3rem; padding-right:2.3rem;padding-bottom:2rem; padding-top:2rem;
+          font-size: 2.5em;border-radius: 100%;background-color: rgb(47, 11, 177);}
+           
+        .pad{padding: 50px;}
+        .foot{ padding: 10px;}
+        a, h1, h3,h4, h5, .kfo {font-family: 'grafier-blackdisplay';}
+        p, li, h6, button, input{font-family: 'grafier-regulardisplay';}
+        .auteurs:hover{ background-color: rgba(0, 68, 255, 0.856); color: white;}
+       </style>
+</head>
+<body>
+ <!--Navbar-->
+ <div class="container-fluid text-white bg-white sticky-top shadow-lg" style="opacity: 0.95;">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+            <nav class=" navbar navbar-expand-sm navbar-light bg-white text-dark ">
+
+              <a href="#" class="navbar-brand "><span class="k">K</span>aranta</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-label="toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+             <div class="collapse navbar-collapse " id="menu">
+               <ul class="navbar-nav ml-auto">
+
+                      <li class="nav-item active">
+                         <a href="#" class="nav-link">Accueil <span class="sr-only">(current)</span> </a>
+                      </li>
+                      <li class="nav-item">
+                         <a href="#apropos" class="nav-link">A propos</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#auteur" class="nav-link">Les auteurs</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="#contact" class="nav-link">Contact</a>
+                      </li>
+                </ul>
+              </div>
+              </nav>
+            </div>
+      </div>
+           
+        </div>
+ </div>
+   
+ 
+
+  
+    <div class="card" style="border-radius: 0px; border: black; ">
+      <img src="i/ds.jpg" class="card-img img-fluid" alt="" style="max-height: 600px;">
+     <div class="card-img-overlay" style=" background-color:rgba(12, 24, 199, 0.534);">
+       <div class="container pt-4">
+         <div class="row">
+      <div class="col-sm-6 text-center text-white ">
+            <h1>Lire et Ecrire,<br> Compter,<br> Coder...</h1>
+              <h6 style="font-weight: normal;">Include Bootstrap’s source Sass and JavaScript files via npm, Composer or Meteor.
+                Package managed installs don’t include documentation, but do include our build system
+                 and readme. Include Bootstrap’s .</h6>
+                  <button type="button" class="btn btn-outline-success  text-white">
+                    <i class="fas fa-arrow-right"></i> voir plus</button>          
+      </div>
+             
+            <div class="col-sm-6  d-none d-sm-block ">
+              <img src="i/lec.jpg" alt="" class="img-thumbnail shadow-lg">;
+              </div>
+</div>
+       </div>
+      
+     </div>
+    </div>
+    
+  </div>
+
+
+<!--Newsletter-->  
+          <div class="container-fluid py-4 text-center text-white bg-dark ">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-4 ">
+                  <input type="text" class="form-control mb-3" placeholder="Entrer votre Nom">
+                </div>
+                  <div class="col-sm-12 col-md-4">
+                      <input type="email" class="form-control mb-3" placeholder="Entrer votre Email"> 
+                    </div>
+                      <div class="col-sm-12 col-md-4">
+                     <div type="submit" class="form-control bg-primary text-white"> <i class="far fa-envelope-open"></i>  Souscrire</div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+  <div class="container-fluid text-dark bg-white py-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-3 ">
+               <div class="card mb-3 mt3 text-center">
+                 <h5 class="card-title text-center mt-3" >Be Better</h5>
+                 <div class="card-body">
+                    <p>Bootstrap’s cards provide a flexible and extensible content container with 
+                      multiple variants and options.</p>
+                 </div>
+               </div>
+              </div>
+              <div class="col-sm-12 col-md-3  ">
+                <div class="card bg-primary text-white text-center mb-3">
+                  <h5 class="card-title mt-3" >Be Smarter</h5>
+                  <div class="card-body">
+                     <p>Bootstrap’s cards provide a flexible and extensible content container with 
+                       multiple variants and options.</p>
+                  </div>
+                </div>
+               </div>
+               <div class="col-sm-12 col-md-3 ">
+                <div class="card text-center mb-3">
+                  <h5 class="card-title mt-3" >Be Faster</h5>
+                  <div class="card-body">
+                     <p>Bootstrap’s cards provide a flexible and extensible content container with 
+                       multiple variants and options.</p>
+                  </div>
+                </div>
+               </div>
+               <div class="col-sm-12 col-md-3 ">
+                <div class="card bg-primary text-white text-center mb-3">
+                  <h5 class="card-title mt-3" >Be Stronger</h5>
+                  <div class="card-body">
+                     <p>Bootstrap’s cards provide a flexible and extensible content container with 
+                       multiple variants and options.</p>
+                  </div>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+
+
+    <!--apropos-->
+
+    <div class="pad container-fluid  text-center text-dark bg-light ">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+             <h4 class="text-primary text-center" id="apropos" >Pourquoi ce Livre</h4>
+                <p class=" text-center" >Bootstrap’s cards provide a flexible and extensible content container with 
+                  multiple variants and options.</p>
+             
+                        </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col">
+
+                      <div class="accordion" id="livre">
+
+                        <div class="card">
+                          <div class="card-header" id="inspiration">
+                              <h2 class="mb-0">
+                                <button class="btn btn-link  text-decoration-none" type="button" data-toggle="collapse" 
+                                data-target="#one" aria-expanded="true" aria-controls="one">
+                                 <i class="fas fa-arrow-alt-circle-down"></i> inspiration
+                                </button>
+                              </h2>
+                          </div>
+                         <div id="one" class="collapse show" aria-label="inspiration" data-parent="#livre">
+                           <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry  
+                                richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor 
+                                brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                 sunt aliqua put a bird on it squid single-origin coffee nulla assumenda 
+                                 shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore 
+                                wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                                 vice lomo.
+                              </div>
+                            </div>
+                          </div>
+                              
+                          <div class="card">
+                            <div class="card-header" id="savoir">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed  text-decoration-none" type="button" data-toggle="collapse"
+                                     data-target="#two" aria-expanded="false">
+                                     <i class="fas fa-arrow-alt-circle-down"></i> Savoir
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="two" class="collapse" aria-labelledby="savoir" data-parent="#livre">
+                              <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry  
+                                richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor 
+                                brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                 sunt aliqua put a bird on it squid single-origin coffee nulla assumenda 
+                                 shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore 
+                                wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                                 vice lomo.
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="card" >
+                            <div class="card-header" id="opportunite">
+                              <h2 class="mb-0">
+                                <button class="btn btn-link collapsed text-decoration-none" type="button" data-toggle="collapse"
+                                 data-target="#three" aria-expanded="false" aria-controls="three">
+                                 <i class="fas fa-arrow-alt-circle-down"></i> Opportunité
+                                </button>
+                              </h2>
+                            </div>
+                            <div id="three" class="collapse" aria-labelledby="opportunite" data-parent="#livre">
+                                <div class="card-body">
+                                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry  
+                                  richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor 
+                                  brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                   sunt aliqua put a bird on it squid single-origin coffee nulla assumenda 
+                                   shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore 
+                                  wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                                   vice lomo
+                                </div>
+                            </div>
+                          </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+                  
+      </div>
+    </div>
+
+<!--les auteurs-->
+
+    <div class="pad container-fluid   text-center text-dark bg-ligh ">
+      <div class="container">
+
+        <div class="row ">
+          <div class="col">
+             <h4 class="text-primary text-center" id="auteur" >Les auteurs</h4>
+                <p class=" text-center" >Bootstrap’s cards provide a flexible and extensible content container with 
+                  multiple variants and options.</p>
+
+
+
+               
+                </div>
+                  </div>
+             
+  
+    <div class="row ">
+
+          <div class="col mt-4">
+            <div class="card-deck">
+
+              <div class="card auteurs text-center mt-5 mb-5 " >
+              <img src="i/ava.png" alt="auteur" class=" mx-auto bg-warning mt-n5 " style="width: 7rem; border-radius: 100%;">
+              <h5 class="card-title" >Tassiou Zougaou</h5>
+              <div class="card-body">
+                 <p>Bootstrap’s cards provide a flexible and extensible content container with 
+                   multiple variants and options.</p>
+                  <i class="fab fa-facebook mr-4"></i>
+                  <i class="fab fa-instagram mr-4"></i>
+                  <i class="fab fa-twitter"></i>
+              </div>
+            </div>
+                  
+
+             
+          
+            <div class="card auteurs text-center mt-5 mb-5 " >
+              <img src="i/avt.png" alt="auteur" class=" mx-auto bg-info mt-n5 " style="width: 7rem; border-radius: 100%;">
+                <h5 class="card-title" >Tassiou Zougaou</h5>
+                <div class="card-body">
+                   <p>Bootstrap’s cards provide a flexible and extensible content container with 
+                     multiple variants and options.</p>
+                     <i class="fab fa-facebook mr-4"></i>
+                     <i class="fab fa-instagram mr-4"></i>
+                     <i class="fab fa-twitter"></i>
+                  </div>
+                </div>
+             
+
+
+            
+                <div class="card auteurs text-center  mt-5 mb-5 " >
+                  <img src="i/avr.png" alt="auteur" class=" mx-auto bg-warning mt-n5 " style="width: 7rem; border-radius: 100%;">
+                  <h5 class="card-title" >Tassiou Zougaou</h5>
+                  <div class="card-body">
+                     <p>Bootstrap’s cards provide a flexible and extensible content container with 
+                       multiple variants and options.</p>
+                       <i class="fab fa-facebook mr-4"></i>
+                       <i class="fab fa-instagram mr-4"></i>
+                       <i class="fab fa-twitter"></i>
+                    </div>
+                  </div>
+               
+
+
+                
+                  <div class="card auteurs text-center  mt-5 mb-5 " >
+                    <img src="i/tre.png" alt="auteur" class=" mx-auto  bg-info  mt-n5 " style="width: 7rem; border-radius: 100%;">
+                    <h5 class="card-title" >Tassiou Zougaou</h5>
+                    <div class="card-body">
+                       <p>Bootstrap’s cards provide a flexible and extensible content container with 
+                         multiple variants and options.</p>
+                         <i class="fab fa-facebook mr-4"></i>
+                         <i class="fab fa-instagram mr-4"></i>
+                         <i class="fab fa-twitter"></i>
+                      </div>
+                    </div>
+                 
+
+    </div>
+
+           
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!--Nous contacter-->
+
+    <div class="pad container-fluid text-center text-dark bg-ligth ">
+      <div class="container ">
+
+        <div class="row">
+          <div class="col-sm-8">
+             <h4 class="text-primary text-center" id="contact">Nous contacter</h4>
+                <p class=" text-center" >Bootstrap’s cards provide a flexible and extensible content container with 
+                  multiple variants and options.</p>
+                 
+                    
+                      <div class="row mb-3">
+                        <div class="col">
+                  <form>
+                        <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="fas fa-user"></i>
+                            </span>
+                          </div>
+                          <input type="text" class="form-control " placeholder="Nom">
+                        </div> 
+                        
+
+                        <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="fas fa-envelope"></i>
+                            </span>
+                          </div>
+                          <input type="email" class="form-control" placeholder="Email"> 
+                        </div> 
+                        
+                        <div class="input-group mb-3">
+
+                              <div class="input-group-prepend">
+
+                                <span class="input-group-text" style="height: 8rem;"><i class="fas fa-pen"></i></span>
+                              </div> 
+
+                              <textarea class="form-control">Message</textarea>
+                              
+                            </div> 
+
+                        <input type="submit" class="form-control mb-3 bg-warning" value="submit">
+                  
+                  </form> 
+                  </div>
+                </div>
+              </div>
+
+                <div class="col-sm-4 my-auto"><span class="kfo text-white">K</span></div>
+        </div>
+      </div>
+    </div>
+         
+
+
+
+ <!--Footer-->
+<footer> 
+<div class="foot container-fluid  text-center text-white bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h5>Karanta</h5>
+          <h6 style="font-weight: normal;">Copyright &copy; 2020</h6>
+         
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+
+
+    <!--JavaScript-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <script src="bootstrap.js"></script>
+        <script src="bootstrap.bundle.js"></script>
+        <script src="Jquery.js"></script>
+</body>
+</html>
